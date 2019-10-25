@@ -2,10 +2,10 @@ const input = document.querySelector("#input--anhalteweg");
 const button = document.querySelector("#button--anhalteweg");
 const output = document.querySelector("#output--anhalteweg");
 
-let geschwindigkeit;
-let bremsweg;
-let reaktionsweg;
-let anhalteweg;
+let geschwindigkeit,
+    bremsweg,
+    reaktionsweg,
+    anhalteweg;
 
 button.addEventListener("click", () => {
     geschwindigkeit = Number(input.value);
