@@ -1,2 +1,2 @@
 # Anhaltewegrechner
-Kleine App zur Berechnung des Anhaltewegs in Metern
+Kleine App zur Berechnung des Anhaltewegs und Bremswegs in Metern
