@@ -8,6 +8,7 @@ let geschwindigkeit,
     anhalteweg;
 
 button.addEventListener("click", () => {
+    console.log(input.value);
     geschwindigkeit = Number(input.value);
     bremsweg = (geschwindigkeit / 10) * (geschwindigkeit / 10);
     reaktionsweg = (geschwindigkeit / 10) * 3;
